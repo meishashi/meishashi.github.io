@@ -10,7 +10,7 @@ author: 燕南天
 {:toc}
 
 
-# laravel 多后台登录遇到的问题
+laravel 多后台登录遇到的问题
 
 最近在学习laravel，想撸一个多后台登录的。
 
@@ -22,7 +22,12 @@ Argument 1 passed to Illuminate\Auth\EloquentUserProvider::validateCredentials()
 
 最后找出问题所在，特此记录下。
 
-![](/assets/2018-11-20.png)
 
-只需要把app/Admin.php 下的Model 改成Authenticatable就好了。
+只需要把app/Admin.php 下的引入
+
+```php
+use Illuminate\Foundation\Auth\User as Authenticatable;
+```
+
+把Model 改成 Authenticatable 并且引入就好了。
 

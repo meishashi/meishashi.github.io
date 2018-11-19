@@ -9,8 +9,6 @@ author: 燕南天
 * content
 {:toc}
 
-# 解决Print: Entry, “:CFBundleIdentifier”, Does Not Exist
-
 用react-native开发安卓，回来运行ios报错
 
 ```js

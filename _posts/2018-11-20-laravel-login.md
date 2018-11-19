@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "多后台登录遇到的问题"
+title:  "laravel 多后台登录遇到的问题"
 categories: laravel
 tags:  laravel PHP
 author: 燕南天
@@ -9,8 +9,6 @@ author: 燕南天
 * content
 {:toc}
 
-
-laravel 多后台登录遇到的问题
 
 最近在学习laravel，想撸一个多后台登录的。
 

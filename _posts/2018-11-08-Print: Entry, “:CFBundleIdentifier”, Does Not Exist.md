@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "Print: Entry, “:CFBundleIdentifier”, Does Not Exist"
+categories: react-native
+tags:  react-naitve
+author: 燕南天
+---
+
+* content
+{:toc}
+
 # 解决Print: Entry, “:CFBundleIdentifier”, Does Not Exist
 
 用react-native开发安卓，回来运行ios报错
@@ -26,7 +37,7 @@ rm -rf node_modules && rm -rf ~/.rncache && yarn
 4、react-native upgrade (这个我要重点说一下，只更新IOS的文件就行，全更新了，android的别给人家动。)
 
 5、react-native run-ios
-```
 
+```
 
 

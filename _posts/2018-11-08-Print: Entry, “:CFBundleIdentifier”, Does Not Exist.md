@@ -24,7 +24,7 @@ Print: Entry, “:CFBundleIdentifier”, Does Not Exist
 解决办法：
 
 ```js
-1、删除/user/你的用户名/.rncache目录下的boost_1_63_0。重新下载,下载网址http://www.boost.org/users/history/version_1_63_0.html
+1、删除/user/你的用户名/.rncache目录下的boost_1_63_0。重新下载,下载网址 http://www.boost.org/users/history/version_1_63_0.html
 
 2、打开命令行工具，在项目目录下输入
 

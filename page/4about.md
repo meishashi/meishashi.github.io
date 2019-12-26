@@ -22,7 +22,7 @@ type: page
 * GitHub：[meishashi](https://github.com/meishashi)
 * email：meishashi@foxmail.com
 <!-- * [Weibo](http://weibo.com/2359064872) -->
-* ![钉钉](https://imgkr.cn-bj.ufileos.com/d60fb8e7-7cb4-4729-ad8d-53ef87a5823d.png)
+* 钉钉扫码 ![钉钉](https://imgkr.cn-bj.ufileos.com/d60fb8e7-7cb4-4729-ad8d-53ef87a5823d.png)
 
 
 <!--

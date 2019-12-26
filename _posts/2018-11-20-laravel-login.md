@@ -14,7 +14,7 @@ author: 燕南天
 
 结果遇到了如下问题
 
-```js
+```bash
 Argument 1 passed to Illuminate\Auth\EloquentUserProvider::validateCredentials() must be an instance of Illuminate\Contracts\Auth\Authenticatable, instance of App\Admin given, called in /Applications/MAMP/htdocs/blog/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php on line 379
 ```
 
@@ -23,7 +23,7 @@ Argument 1 passed to Illuminate\Auth\EloquentUserProvider::validateCredentials()
 
 只需要把app/Admin.php 下的引入
 
-```php
+```bash
 use Illuminate\Foundation\Auth\User as Authenticatable;
 ```
 
